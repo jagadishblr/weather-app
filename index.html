@@ -6,23 +6,26 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
-        <h1>Weather Forecast - Bangalore</h1>
         <div class="container">
+            <h1>Weather Forecast - <span></span></h1>
             <div id="weatherdata">
 
             </div>
-            <table id="weatherDataTable" style="border:1px solid #ccc">
+            <table class="table table-striped table-bordered" id="weatherDataTable">
                 <tr>
-                    <th>Date</th>
-                    <th>Min. Temperature</th>
-                    <th>Max. Temperature</th>
+                    <th class="bg-primary">Date</th>
+                    <th class="bg-primary">Min. Temperature</th>
+                    <th class="bg-primary">Max. Temperature</th>
                 </tr>
             </table>
         </div>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"></script>
         <script src="js/scripts.js"></script>
     </body>
 </html>
